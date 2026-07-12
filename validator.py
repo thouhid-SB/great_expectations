@@ -6,10 +6,10 @@ context = gx.get_context(
     project_root_dir=Path.cwd()
 )
 
-validation = context.checkpoints.get(
+checkpoint = context.checkpoints.get(
     "customer_checkpoint"
 )
 
-validation_results = validation.run()
+validation_results = checkpoint.run()
 
 print(validation_results)
