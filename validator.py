@@ -6,8 +6,8 @@ context = gx.get_context(
     project_root_dir=Path.cwd()
 )
 
-validation = context.validation_definitions.get(
-    "customer_validation"
+validation = context.checkpoints.get(
+    "customer_checkpoint"
 )
 
 validation_results = validation.run()
