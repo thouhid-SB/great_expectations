@@ -1,0 +1,21 @@
+customer_id,name,email,age,country,salary,join_date
+1001,Alice Johnson,alice.johnson@gmail.com,28,USA,65000,2022-01-15
+1002,Bob Smith,bob.smith@yahoo.com,35,Canada,72000,2021-11-20
+1003,Charlie Brown,charlie.brown@outlook.com,42,UK,81000,2020-05-18
+1004,Diana Wilson,diana.wilson@gmail.com,29,India,54000,2023-03-11
+1005,Ethan Davis,ethan.davis@gmail.com,31,Australia,68000,2022-07-01
+1006,Fatima Khan,fatima.khan@gmail.com,26,UAE,59000,2024-02-08
+1007,George Miller,george.miller@gmail.com,45,Germany,93000,2019-10-25
+1008,Hannah Lee,hannah.lee@gmail.com,33,Singapore,76000,2021-08-30
+1009,Ibrahim Ali,ibrahim.ali@gmail.com,38,India,84000,2020-12-14
+1010,Jessica Moore,jessica.moore@gmail.com,27,USA,61000,2023-06-05
+1011,Kevin Thomas,kevin.thomas@gmail.com,36,Canada,79000,2022-09-19
+1012,Linda Garcia,linda.garcia@gmail.com,30,Mexico,57000,2023-01-12
+1013,Michael Scott,michael.scott@gmail.com,41,USA,87000,2021-04-28
+1014,Nora Ahmed,nora.ahmed@gmail.com,27,India,45000,2024-05-21
+1015,Oliver White,oliver.white@gmail.com,51,UK,72000,2018-11-02
+1016,Priya Sharma,priya.sharma@gmail.com,25,India,62000,2023-09-10
+1017,Ryan Cooper,ryan.cooper@gmail.com,38,Australia,91000,2020-07-16
+1018,Sophia Turner,sophia.turner@gmail.com,34,France,75000,2022-04-09
+1019,Sophia Turner,sophia.turner@gmail.com,34,France,75000,2022-04-09
+1020,Thomas Walker,thomas.walker@gmail.com,39,Brazil,80000,2021-02-17

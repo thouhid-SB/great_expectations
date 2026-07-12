@@ -1,0 +1,99 @@
+{
+  "expectations": [
+    {
+      "id": "e53f41a3-0076-4449-863d-c6e2a5213656",
+      "kwargs": {
+        "column": "email"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "b1d75d26-1248-4663-b646-17ad2e589a1e",
+      "kwargs": {
+        "column": "customer_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_unique"
+    },
+    {
+      "id": "fc4684fa-865c-4497-a97a-3eacfaf2f1c0",
+      "kwargs": {
+        "column": "name"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "a6a44c6a-3c04-448b-b5c5-dfc02f4dfe91",
+      "kwargs": {
+        "column": "age",
+        "max_value": 80.0,
+        "min_value": 18.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "f4e4733a-0b65-47c4-900a-a3850e306c5d",
+      "kwargs": {
+        "column": "salary",
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "c079329a-fd38-4fa3-8c52-6bf4c5a5e849",
+      "kwargs": {
+        "column": "country",
+        "value_set": [
+          "India",
+          "USA",
+          "Canada",
+          "UK",
+          "Australia",
+          "Germany",
+          "Singapore",
+          "France",
+          "Brazil",
+          "Mexico",
+          "UAE"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "ad496751-ce2a-49d7-95bf-f6230e7e4c57",
+      "kwargs": {
+        "column": "email",
+        "regex": "^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_match_regex"
+    },
+    {
+      "id": "8c50ebd7-2713-4e26-a925-3fbf1685e659",
+      "kwargs": {
+        "column": "join_date"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    }
+  ],
+  "id": "e134820b-cce6-4330-a36c-0a284614d91f",
+  "meta": {
+    "great_expectations_version": "1.18.2"
+  },
+  "name": "customer_suite",
+  "notes": null
+}
